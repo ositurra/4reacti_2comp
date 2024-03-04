@@ -1,11 +1,9 @@
 
 
-const SocialButton = () => {
-
-
+const SocialButton = (props) => {
     return (
         <>
-
+            <span>{props.url}</span>
         </>
     )
 }
